@@ -1,0 +1,1150 @@
+You should add the contents of '/usr/share/aclocal/intltool.m4' to 'aclocal.m4'.
+configure.ac:25: installing './compile'
+configure.ac:11: installing './install-sh'
+configure.ac:11: installing './missing'
+extensions/cpsection/Makefile.am:5: installing './py-compile'
+checking for a BSD-compatible install... /bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking for python version... 3.7
+checking for python platform... linux
+checking for python script directory... ${prefix}/lib/python3.7/site-packages
+checking for python extension module directory... ${exec_prefix}/lib/python3.7/site-packages
+empy found
+checking for pkg-config... /bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for SHELL... yes
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.0... 0.51.0 found
+checking for intltool-update... /bin/intltool-update
+checking for intltool-merge... /bin/intltool-merge
+checking for intltool-extract... /bin/intltool-extract
+checking for xgettext... /bin/xgettext
+checking for msgmerge... /bin/msgmerge
+checking for msgfmt... /bin/msgfmt
+checking for gmsgfmt... /bin/msgfmt
+checking for perl... /bin/perl
+checking for perl >= 5.8.1... 5.28.1
+checking for XML::Parser... ok
+checking whether make supports the include directive... yes (GNU style)
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... none
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /bin/msgfmt
+checking for xgettext... (cached) /bin/xgettext
+checking for pkg-config... (cached) /bin/pkg-config
+checking pkg-config is at least version 0.16... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating bin/Makefile
+config.status: creating bin/sugar
+config.status: creating data/icons/Makefile
+config.status: creating data/Makefile
+config.status: creating extensions/cpsection/aboutcomputer/Makefile
+config.status: creating extensions/cpsection/aboutme/Makefile
+config.status: creating extensions/cpsection/background/Makefile
+config.status: creating extensions/cpsection/backup/Makefile
+config.status: creating extensions/cpsection/backup/backends/Makefile
+config.status: creating extensions/cpsection/datetime/Makefile
+config.status: creating extensions/cpsection/frame/Makefile
+config.status: creating extensions/cpsection/keyboard/Makefile
+config.status: creating extensions/cpsection/language/Makefile
+config.status: creating extensions/cpsection/modemconfiguration/Makefile
+config.status: creating extensions/cpsection/Makefile
+config.status: creating extensions/cpsection/network/Makefile
+config.status: creating extensions/cpsection/power/Makefile
+config.status: creating extensions/cpsection/updater/Makefile
+config.status: creating extensions/cpsection/webaccount/services/Makefile
+config.status: creating extensions/cpsection/webaccount/Makefile
+config.status: creating extensions/deviceicon/Makefile
+config.status: creating extensions/globalkey/Makefile
+config.status: creating extensions/webservice/Makefile
+config.status: creating extensions/Makefile
+config.status: creating Makefile
+config.status: creating po/Makefile.in
+config.status: creating src/jarabe/config.py
+config.status: creating src/jarabe/controlpanel/Makefile
+config.status: creating src/jarabe/desktop/Makefile
+config.status: creating src/jarabe/frame/Makefile
+config.status: creating src/jarabe/intro/Makefile
+config.status: creating src/jarabe/journal/Makefile
+config.status: creating src/jarabe/Makefile
+config.status: creating src/jarabe/model/Makefile
+config.status: creating src/jarabe/model/update/Makefile
+config.status: creating src/jarabe/util/Makefile
+config.status: creating src/jarabe/util/telepathy/Makefile
+config.status: creating src/jarabe/view/Makefile
+config.status: creating src/jarabe/webservice/Makefile
+config.status: creating src/Makefile
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+Making all in bin
+make[1]: Entering directory '/usr/src/sugar/bin'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/usr/src/sugar/bin'
+Making all in data
+make[1]: Entering directory '/usr/src/sugar/data'
+Making all in icons
+make[2]: Entering directory '/usr/src/sugar/data/icons'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/src/sugar/data/icons'
+make[2]: Entering directory '/usr/src/sugar/data'
+LC_ALL=C /bin/intltool-merge  -x -u -c ../po/.intltool-merge-cache ../po sugar.xml.in sugar.xml
+Generating and caching the translation database
+Merging translations into sugar.xml.
+CREATED sugar.xml
+sed -e "s|\@bindir\@|/usr/bin|g" org.sugar.brightness.policy.in > org.sugar.brightness.policy
+sed -e "s|\@bindir\@|/usr/bin|g" org.sugar.serial-number.policy.in > org.sugar.serial-number.policy
+python3 -m em -D scaling=\'72\' ./gtkrc.em > \
+	../data/sugar-72.gtkrc
+python3 -m em -D scaling=\'100\' ./gtkrc.em > \
+	../data/sugar-100.gtkrc
+/usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas --strict --dry-run  --schema-file=org.sugarlabs.gschema.xml && mkdir -p . && touch org.sugarlabs.gschema.valid
+make[2]: Leaving directory '/usr/src/sugar/data'
+make[1]: Leaving directory '/usr/src/sugar/data'
+Making all in po
+make[1]: Entering directory '/usr/src/sugar/po'
+file=`echo ach | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ach.po
+file=`echo af | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file af.po
+file=`echo am | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file am.po
+file=`echo an | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file an.po
+file=`echo ar | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ar.po
+file=`echo ayc | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ayc.po
+file=`echo be | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file be.po
+file=`echo be@latin | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file be@latin.po
+file=`echo bg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file bg.po
+file=`echo bi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file bi.po
+file=`echo bn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file bn.po
+file=`echo bn_IN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file bn_IN.po
+file=`echo br | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file br.po
+file=`echo bs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file bs.po
+file=`echo ca | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ca.po
+file=`echo cs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file cs.po
+file=`echo cy | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file cy.po
+file=`echo da | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file da.po
+file=`echo de | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file de.po
+file=`echo dz | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file dz.po
+file=`echo el | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file el.po
+file=`echo en | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file en.po
+file=`echo en_GB | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file en_GB.po
+file=`echo eo | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file eo.po
+file=`echo es | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file es.po
+file=`echo eu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file eu.po
+file=`echo fa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file fa.po
+file=`echo ff | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ff.po
+file=`echo fi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file fi.po
+file=`echo fil | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file fil.po
+file=`echo fr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file fr.po
+file=`echo fy | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file fy.po
+file=`echo gl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file gl.po
+file=`echo gn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file gn.po
+file=`echo gu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file gu.po
+file=`echo gug | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file gug.po
+file=`echo ha | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ha.po
+file=`echo he | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file he.po
+file=`echo hi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file hi.po
+file=`echo hr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file hr.po
+file=`echo ht | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ht.po
+file=`echo hu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file hu.po
+file=`echo hus | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file hus.po
+file=`echo hy | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file hy.po
+file=`echo ibo | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ibo.po
+file=`echo id | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file id.po
+file=`echo ig | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ig.po
+file=`echo is | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file is.po
+file=`echo it | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file it.po
+file=`echo ja | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ja.po
+file=`echo km | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file km.po
+file=`echo kn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file kn.po
+file=`echo ko | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ko.po
+file=`echo kos | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file kos.po
+file=`echo ku | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ku.po
+file=`echo lg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file lg.po
+file=`echo lt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file lt.po
+file=`echo lv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file lv.po
+file=`echo mg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file mg.po
+file=`echo mi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file mi.po
+file=`echo miq | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file miq.po
+file=`echo mk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file mk.po
+file=`echo ml | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ml.po
+file=`echo mn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file mn.po
+file=`echo mr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file mr.po
+file=`echo ms | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ms.po
+file=`echo mvo | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file mvo.po
+file=`echo nah | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file nah.po
+file=`echo nb | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file nb.po
+file=`echo ne | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ne.po
+file=`echo nl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file nl.po
+file=`echo nn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file nn.po
+file=`echo pa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file pa.po
+file=`echo pap | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file pap.po
+file=`echo pbs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file pbs.po
+file=`echo pl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file pl.po
+file=`echo ps | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ps.po
+file=`echo pt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file pt.po
+file=`echo pt_BR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file pt_BR.po
+file=`echo quz | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file quz.po
+file=`echo ro | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ro.po
+file=`echo ru | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ru.po
+file=`echo rw | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file rw.po
+file=`echo si | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file si.po
+file=`echo sk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file sk.po
+file=`echo sl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file sl.po
+file=`echo sm | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file sm.po
+file=`echo son | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file son.po
+file=`echo sq | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file sq.po
+file=`echo sr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file sr.po
+file=`echo st | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file st.po
+file=`echo sv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file sv.po
+file=`echo sw | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file sw.po
+file=`echo ta | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ta.po
+file=`echo te | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file te.po
+file=`echo th | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file th.po
+file=`echo to | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file to.po
+file=`echo tr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file tr.po
+file=`echo tzm | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file tzm.po
+file=`echo ug | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ug.po
+file=`echo uk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file uk.po
+file=`echo ur | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file ur.po
+file=`echo vi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file vi.po
+file=`echo yo | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file yo.po
+file=`echo zh_CN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file zh_CN.po
+file=`echo zh_TW | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file zh_TW.po
+file=`echo zu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /bin/msgfmt -o $file zu.po
+make[1]: Leaving directory '/usr/src/sugar/po'
+Making all in src
+make[1]: Entering directory '/usr/src/sugar/src'
+Making all in jarabe
+make[2]: Entering directory '/usr/src/sugar/src/jarabe'
+Making all in controlpanel
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/controlpanel'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/controlpanel'
+Making all in desktop
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/desktop'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/desktop'
+Making all in frame
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/frame'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/frame'
+Making all in journal
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/journal'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/journal'
+Making all in model
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/model'
+Making all in update
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/model/update'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/model/update'
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/model'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/model'
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/model'
+Making all in view
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/view'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/view'
+Making all in intro
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/intro'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/intro'
+Making all in util
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/util'
+Making all in telepathy
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/util/telepathy'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/util/telepathy'
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/util'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/util'
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/util'
+Making all in webservice
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/webservice'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/webservice'
+make[3]: Entering directory '/usr/src/sugar/src/jarabe'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe'
+make[2]: Leaving directory '/usr/src/sugar/src/jarabe'
+make[2]: Entering directory '/usr/src/sugar/src'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/usr/src/sugar/src'
+make[1]: Leaving directory '/usr/src/sugar/src'
+Making all in extensions
+make[1]: Entering directory '/usr/src/sugar/extensions'
+Making all in cpsection
+make[2]: Entering directory '/usr/src/sugar/extensions/cpsection'
+Making all in aboutme
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/aboutme'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/aboutme'
+Making all in aboutcomputer
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/aboutcomputer'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/aboutcomputer'
+Making all in background
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/background'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/background'
+Making all in backup
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/backup'
+Making all in backends
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/backup/backends'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/backup/backends'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/backup'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/backup'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/backup'
+Making all in datetime
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/datetime'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/datetime'
+Making all in frame
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/frame'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/frame'
+Making all in keyboard
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/keyboard'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/keyboard'
+Making all in language
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/language'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/language'
+Making all in modemconfiguration
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/modemconfiguration'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/modemconfiguration'
+Making all in network
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/network'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/network'
+Making all in power
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/power'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/power'
+Making all in updater
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/updater'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/updater'
+Making all in webaccount
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/webaccount'
+Making all in services
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/webaccount/services'
+make[5]: Entering directory '/usr/src/sugar/extensions/cpsection/webaccount/services'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/usr/src/sugar/extensions/cpsection/webaccount/services'
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/webaccount/services'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/webaccount'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/webaccount'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/webaccount'
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection'
+make[2]: Leaving directory '/usr/src/sugar/extensions/cpsection'
+Making all in deviceicon
+make[2]: Entering directory '/usr/src/sugar/extensions/deviceicon'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/src/sugar/extensions/deviceicon'
+Making all in globalkey
+make[2]: Entering directory '/usr/src/sugar/extensions/globalkey'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/usr/src/sugar/extensions/globalkey'
+Making all in webservice
+make[2]: Entering directory '/usr/src/sugar/extensions/webservice'
+make[3]: Entering directory '/usr/src/sugar/extensions/webservice'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/usr/src/sugar/extensions/webservice'
+make[2]: Leaving directory '/usr/src/sugar/extensions/webservice'
+make[2]: Entering directory '/usr/src/sugar/extensions'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/usr/src/sugar/extensions'
+make[1]: Leaving directory '/usr/src/sugar/extensions'
+make[1]: Entering directory '/usr/src/sugar'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/usr/src/sugar'
+Making install in bin
+make[1]: Entering directory '/usr/src/sugar/bin'
+make[2]: Entering directory '/usr/src/sugar/bin'
+ /bin/mkdir -p '/usr/bin'
+ /bin/install -c sugar sugar-serial-number-helper sugar-backlight-helper sugar-backlight-setup sugar-control-panel sugar-install-bundle sugar-erase-bundle sugar-launch '/usr/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/usr/src/sugar/bin'
+make[1]: Leaving directory '/usr/src/sugar/bin'
+Making install in data
+make[1]: Entering directory '/usr/src/sugar/data'
+Making install in icons
+make[2]: Entering directory '/usr/src/sugar/data/icons'
+make[3]: Entering directory '/usr/src/sugar/data/icons'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/data/icons'
+ /bin/install -c -m 644 module-about_me.svg module-about_my_computer.svg module-date_and_time.svg module-frame.svg module-keyboard.svg module-language.svg module-modemconfiguration.svg module-network.svg module-power.svg module-updater.svg module-webaccount.svg '/usr/share/sugar/data/icons'
+make[3]: Leaving directory '/usr/src/sugar/data/icons'
+make[2]: Leaving directory '/usr/src/sugar/data/icons'
+make[2]: Entering directory '/usr/src/sugar/data'
+make[3]: Entering directory '/usr/src/sugar/data'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/mime/packages'
+ /bin/install -c -m 644 sugar.xml '/usr/share/mime/packages'
+ /bin/mkdir -p '/usr/etc/dbus-1/system.d/'
+ /bin/install -c -m 644 nm-user-settings.conf '/usr/etc/dbus-1/system.d/'
+ /bin/mkdir -p '/usr/share/polkit-1/actions'
+ /bin/install -c -m 644 org.sugar.brightness.policy org.sugar.serial-number.policy '/usr/share/polkit-1/actions'
+ /bin/mkdir -p '/usr/share/sugar/data'
+ /bin/install -c -m 644 activities.hidden group-labels.defaults ISO-639-2_utf-8.txt kbdconfig mime.defaults GPLv3 sugar-72.gtkrc sugar-100.gtkrc '/usr/share/sugar/data'
+ /bin/mkdir -p '/usr/share/xsessions'
+ /bin/install -c -m 644 sugar.desktop '/usr/share/xsessions'
+if test -n "org.sugarlabs.gschema.xml"; then \
+	test -z "/usr/share/glib-2.0/schemas" || /bin/mkdir -p "/usr/share/glib-2.0/schemas"; \
+	/bin/install -c -m 644 org.sugarlabs.gschema.xml "/usr/share/glib-2.0/schemas"; \
+	test -n "" || /usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas /usr/share/glib-2.0/schemas; \
+fi
+make  install-data-hook
+make[4]: Entering directory '/usr/src/sugar/data'
+if [ -z "$DESTDIR" ]; then \
+	update-mime-database "/usr/share/mime"; \
+fi
+make[4]: Leaving directory '/usr/src/sugar/data'
+make[3]: Leaving directory '/usr/src/sugar/data'
+make[2]: Leaving directory '/usr/src/sugar/data'
+make[1]: Leaving directory '/usr/src/sugar/data'
+Making install in po
+make[1]: Entering directory '/usr/src/sugar/po'
+linguas="ach af am an ar ayc be be@latin bg bi bn bn_IN br bs ca cs cy da de dz el en en_GB eo es eu fa ff fi fil fr fy gl gn gu gug ha he hi hr ht hu hus hy ibo id ig is it ja km kn ko kos ku lg lt lv mg mi miq mk ml mn mr ms mvo nah nb ne nl nn pa pap pbs pl ps pt pt_BR quz ro ru rw si sk sl sm son sq sr st sv sw ta te th to tr tzm ug uk ur vi yo zh_CN zh_TW zu "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/bash /usr/src/sugar/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /bin/install -c -m 644 $lang.gmo $dir/sugar.mo; \
+    echo "installing $lang.gmo as $dir/sugar.mo"; \
+  else \
+    /bin/install -c -m 644 ./$lang.gmo $dir/sugar.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/sugar.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /bin/install -c -m 644 $lang.gmo.m $dir/sugar.mo.m; \
+    echo "installing $lang.gmo.m as $dir/sugar.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/sugar.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/sugar.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing ach.gmo as /usr/share/locale/ach/LC_MESSAGES/sugar.mo
+installing af.gmo as /usr/share/locale/af/LC_MESSAGES/sugar.mo
+installing am.gmo as /usr/share/locale/am/LC_MESSAGES/sugar.mo
+installing an.gmo as /usr/share/locale/an/LC_MESSAGES/sugar.mo
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/sugar.mo
+installing ayc.gmo as /usr/share/locale/ayc/LC_MESSAGES/sugar.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/sugar.mo
+installing be@latin.gmo as /usr/share/locale/be@latin/LC_MESSAGES/sugar.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/sugar.mo
+installing bi.gmo as /usr/share/locale/bi/LC_MESSAGES/sugar.mo
+installing bn.gmo as /usr/share/locale/bn/LC_MESSAGES/sugar.mo
+installing bn_IN.gmo as /usr/share/locale/bn_IN/LC_MESSAGES/sugar.mo
+installing br.gmo as /usr/share/locale/br/LC_MESSAGES/sugar.mo
+installing bs.gmo as /usr/share/locale/bs/LC_MESSAGES/sugar.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/sugar.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/sugar.mo
+installing cy.gmo as /usr/share/locale/cy/LC_MESSAGES/sugar.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/sugar.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/sugar.mo
+installing dz.gmo as /usr/share/locale/dz/LC_MESSAGES/sugar.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/sugar.mo
+installing en.gmo as /usr/share/locale/en/LC_MESSAGES/sugar.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/sugar.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/sugar.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/sugar.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/sugar.mo
+installing fa.gmo as /usr/share/locale/fa/LC_MESSAGES/sugar.mo
+installing ff.gmo as /usr/share/locale/ff/LC_MESSAGES/sugar.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/sugar.mo
+installing fil.gmo as /usr/share/locale/fil/LC_MESSAGES/sugar.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/sugar.mo
+installing fy.gmo as /usr/share/locale/fy/LC_MESSAGES/sugar.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/sugar.mo
+installing gn.gmo as /usr/share/locale/gn/LC_MESSAGES/sugar.mo
+installing gu.gmo as /usr/share/locale/gu/LC_MESSAGES/sugar.mo
+installing gug.gmo as /usr/share/locale/gug/LC_MESSAGES/sugar.mo
+installing ha.gmo as /usr/share/locale/ha/LC_MESSAGES/sugar.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/sugar.mo
+installing hi.gmo as /usr/share/locale/hi/LC_MESSAGES/sugar.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/sugar.mo
+installing ht.gmo as /usr/share/locale/ht/LC_MESSAGES/sugar.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/sugar.mo
+installing hus.gmo as /usr/share/locale/hus/LC_MESSAGES/sugar.mo
+installing hy.gmo as /usr/share/locale/hy/LC_MESSAGES/sugar.mo
+installing ibo.gmo as /usr/share/locale/ibo/LC_MESSAGES/sugar.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/sugar.mo
+installing ig.gmo as /usr/share/locale/ig/LC_MESSAGES/sugar.mo
+installing is.gmo as /usr/share/locale/is/LC_MESSAGES/sugar.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/sugar.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/sugar.mo
+installing km.gmo as /usr/share/locale/km/LC_MESSAGES/sugar.mo
+installing kn.gmo as /usr/share/locale/kn/LC_MESSAGES/sugar.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/sugar.mo
+installing kos.gmo as /usr/share/locale/kos/LC_MESSAGES/sugar.mo
+installing ku.gmo as /usr/share/locale/ku/LC_MESSAGES/sugar.mo
+installing lg.gmo as /usr/share/locale/lg/LC_MESSAGES/sugar.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/sugar.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/sugar.mo
+installing mg.gmo as /usr/share/locale/mg/LC_MESSAGES/sugar.mo
+installing mi.gmo as /usr/share/locale/mi/LC_MESSAGES/sugar.mo
+installing miq.gmo as /usr/share/locale/miq/LC_MESSAGES/sugar.mo
+installing mk.gmo as /usr/share/locale/mk/LC_MESSAGES/sugar.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/sugar.mo
+installing mn.gmo as /usr/share/locale/mn/LC_MESSAGES/sugar.mo
+installing mr.gmo as /usr/share/locale/mr/LC_MESSAGES/sugar.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/sugar.mo
+installing mvo.gmo as /usr/share/locale/mvo/LC_MESSAGES/sugar.mo
+installing nah.gmo as /usr/share/locale/nah/LC_MESSAGES/sugar.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/sugar.mo
+installing ne.gmo as /usr/share/locale/ne/LC_MESSAGES/sugar.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/sugar.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/sugar.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/sugar.mo
+installing pap.gmo as /usr/share/locale/pap/LC_MESSAGES/sugar.mo
+installing pbs.gmo as /usr/share/locale/pbs/LC_MESSAGES/sugar.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/sugar.mo
+installing ps.gmo as /usr/share/locale/ps/LC_MESSAGES/sugar.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/sugar.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/sugar.mo
+installing quz.gmo as /usr/share/locale/quz/LC_MESSAGES/sugar.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/sugar.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/sugar.mo
+installing rw.gmo as /usr/share/locale/rw/LC_MESSAGES/sugar.mo
+installing si.gmo as /usr/share/locale/si/LC_MESSAGES/sugar.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/sugar.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/sugar.mo
+installing sm.gmo as /usr/share/locale/sm/LC_MESSAGES/sugar.mo
+installing son.gmo as /usr/share/locale/son/LC_MESSAGES/sugar.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/sugar.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/sugar.mo
+installing st.gmo as /usr/share/locale/st/LC_MESSAGES/sugar.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/sugar.mo
+installing sw.gmo as /usr/share/locale/sw/LC_MESSAGES/sugar.mo
+installing ta.gmo as /usr/share/locale/ta/LC_MESSAGES/sugar.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/sugar.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/sugar.mo
+installing to.gmo as /usr/share/locale/to/LC_MESSAGES/sugar.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/sugar.mo
+installing tzm.gmo as /usr/share/locale/tzm/LC_MESSAGES/sugar.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/sugar.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/sugar.mo
+installing ur.gmo as /usr/share/locale/ur/LC_MESSAGES/sugar.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/sugar.mo
+installing yo.gmo as /usr/share/locale/yo/LC_MESSAGES/sugar.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/sugar.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/sugar.mo
+installing zu.gmo as /usr/share/locale/zu/LC_MESSAGES/sugar.mo
+make[1]: Leaving directory '/usr/src/sugar/po'
+Making install in src
+make[1]: Entering directory '/usr/src/sugar/src'
+Making install in jarabe
+make[2]: Entering directory '/usr/src/sugar/src/jarabe'
+Making install in controlpanel
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/controlpanel'
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/controlpanel'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.7/site-packages/jarabe/controlpanel'
+ /bin/install -c -m 644 __init__.py cmd.py gui.py inlinealert.py sectionview.py toolbar.py '/usr/lib/python3.7/site-packages/jarabe/controlpanel'
+Byte-compiling python modules...
+__init__.pycmd.pygui.pyinlinealert.pysectionview.pytoolbar.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pycmd.pygui.pyinlinealert.pysectionview.pytoolbar.py
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/controlpanel'
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/controlpanel'
+Making install in desktop
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/desktop'
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/desktop'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.7/site-packages/jarabe/desktop'
+ /bin/install -c -m 644 __init__.py activitieslist.py activitychooser.py favoritesview.py favoriteslayout.py friendview.py grid.py groupbox.py homebox.py homebackgroundbox.py homewindow.py keydialog.py meshbox.py networkviews.py schoolserver.py snowflakelayout.py transitionbox.py viewcontainer.py viewtoolbar.py '/usr/lib/python3.7/site-packages/jarabe/desktop'
+Byte-compiling python modules...
+__init__.pyactivitieslist.pyactivitychooser.pyfavoritesview.pyfavoriteslayout.pyfriendview.pygrid.pygroupbox.pyhomebox.pyhomebackgroundbox.pyhomewindow.pykeydialog.pymeshbox.pynetworkviews.pyschoolserver.pysnowflakelayout.pytransitionbox.pyviewcontainer.pyviewtoolbar.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pyactivitieslist.pyactivitychooser.pyfavoritesview.pyfavoriteslayout.pyfriendview.pygrid.pygroupbox.pyhomebox.pyhomebackgroundbox.pyhomewindow.pykeydialog.pymeshbox.pynetworkviews.pyschoolserver.pysnowflakelayout.pytransitionbox.pyviewcontainer.pyviewtoolbar.py
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/desktop'
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/desktop'
+Making install in frame
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/frame'
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/frame'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.7/site-packages/jarabe/frame'
+ /bin/install -c -m 644 __init__.py activitiestray.py clipboard.py clipboardicon.py clipboardmenu.py clipboardobject.py clipboardpanelwindow.py clipboardtray.py devicestray.py frameinvoker.py friendstray.py eventarea.py frame.py notification.py framewindow.py zoomtoolbar.py '/usr/lib/python3.7/site-packages/jarabe/frame'
+Byte-compiling python modules...
+__init__.pyactivitiestray.pyclipboard.pyclipboardicon.pyclipboardmenu.pyclipboardobject.pyclipboardpanelwindow.pyclipboardtray.pydevicestray.pyframeinvoker.pyfriendstray.pyeventarea.pyframe.pynotification.pyframewindow.pyzoomtoolbar.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pyactivitiestray.pyclipboard.pyclipboardicon.pyclipboardmenu.pyclipboardobject.pyclipboardpanelwindow.pyclipboardtray.pydevicestray.pyframeinvoker.pyfriendstray.pyeventarea.pyframe.pynotification.pyframewindow.pyzoomtoolbar.py
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/frame'
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/frame'
+Making install in journal
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/journal'
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/journal'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.7/site-packages/jarabe/journal'
+ /bin/install -c -m 644 __init__.py bundlelauncher.py detailview.py expandedentry.py iconview.py iconmodel.py journalactivity.py journalentrybundle.py journaltoolbox.py journalwindow.py keepicon.py listmodel.py listview.py misc.py modalalert.py model.py objectchooser.py projectview.py palettes.py volumestoolbar.py '/usr/lib/python3.7/site-packages/jarabe/journal'
+Byte-compiling python modules...
+__init__.pybundlelauncher.pydetailview.pyexpandedentry.pyiconview.pyiconmodel.pyjournalactivity.pyjournalentrybundle.pyjournaltoolbox.pyjournalwindow.pykeepicon.pylistmodel.pylistview.pymisc.pymodalalert.pymodel.pyobjectchooser.pyprojectview.pypalettes.pyvolumestoolbar.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pybundlelauncher.pydetailview.pyexpandedentry.pyiconview.pyiconmodel.pyjournalactivity.pyjournalentrybundle.pyjournaltoolbox.pyjournalwindow.pykeepicon.pylistmodel.pylistview.pymisc.pymodalalert.pymodel.pyobjectchooser.pyprojectview.pypalettes.pyvolumestoolbar.py
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/journal'
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/journal'
+Making install in model
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/model'
+Making install in update
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/model/update'
+make[5]: Entering directory '/usr/src/sugar/src/jarabe/model/update'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.7/site-packages/jarabe/model/update'
+ /bin/install -c -m 644 aslo.py __init__.py microformat.py updater.py '/usr/lib/python3.7/site-packages/jarabe/model/update'
+Byte-compiling python modules...
+aslo.py__init__.pymicroformat.pyupdater.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+aslo.py__init__.pymicroformat.pyupdater.py
+make[5]: Leaving directory '/usr/src/sugar/src/jarabe/model/update'
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/model/update'
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/model'
+make[5]: Entering directory '/usr/src/sugar/src/jarabe/model'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.7/site-packages/jarabe/model'
+ /bin/install -c -m 644 adhoc.py __init__.py buddy.py bundleregistry.py brightness.py desktop.py filetransfer.py friends.py invites.py keyboard.py olpcmesh.py mimeregistry.py neighborhood.py network.py notifications.py shell.py screen.py screenshot.py session.py sound.py speech.py telepathyclient.py '/usr/lib/python3.7/site-packages/jarabe/model'
+Byte-compiling python modules...
+adhoc.py__init__.pybuddy.pybundleregistry.pybrightness.pydesktop.pyfiletransfer.pyfriends.pyinvites.pykeyboard.pyolpcmesh.pymimeregistry.pyneighborhood.pynetwork.pynotifications.pyshell.pyscreen.pyscreenshot.pysession.pysound.pyspeech.pytelepathyclient.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+adhoc.py__init__.pybuddy.pybundleregistry.pybrightness.pydesktop.pyfiletransfer.pyfriends.pyinvites.pykeyboard.pyolpcmesh.pymimeregistry.pyneighborhood.pynetwork.pynotifications.pyshell.pyscreen.pyscreenshot.pysession.pysound.pyspeech.pytelepathyclient.py
+make[5]: Leaving directory '/usr/src/sugar/src/jarabe/model'
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/model'
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/model'
+Making install in view
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/view'
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/view'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.7/site-packages/jarabe/view'
+ /bin/install -c -m 644 __init__.py alerts.py buddyicon.py buddymenu.py cursortracker.py customizebundle.py gesturehandler.py keyhandler.py launcher.py palettes.py pulsingicon.py service.py tabbinghandler.py viewsource.py viewhelp.py viewhelp_webkit1.py viewhelp_webkit2.py '/usr/lib/python3.7/site-packages/jarabe/view'
+Byte-compiling python modules...
+__init__.pyalerts.pybuddyicon.pybuddymenu.pycursortracker.pycustomizebundle.pygesturehandler.pykeyhandler.pylauncher.pypalettes.pypulsingicon.pyservice.pytabbinghandler.pyviewsource.pyviewhelp.pyviewhelp_webkit1.pyviewhelp_webkit2.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pyalerts.pybuddyicon.pybuddymenu.pycursortracker.pycustomizebundle.pygesturehandler.pykeyhandler.pylauncher.pypalettes.pypulsingicon.pyservice.pytabbinghandler.pyviewsource.pyviewhelp.pyviewhelp_webkit1.pyviewhelp_webkit2.py
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/view'
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/view'
+Making install in intro
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/intro'
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/intro'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.7/site-packages/jarabe/intro'
+ /bin/install -c -m 644 __init__.py agepicker.py colorpicker.py genderpicker.py window.py '/usr/lib/python3.7/site-packages/jarabe/intro'
+Byte-compiling python modules...
+__init__.pyagepicker.pycolorpicker.pygenderpicker.pywindow.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pyagepicker.pycolorpicker.pygenderpicker.pywindow.py
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/intro'
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/intro'
+Making install in util
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/util'
+Making install in telepathy
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/util/telepathy'
+make[5]: Entering directory '/usr/src/sugar/src/jarabe/util/telepathy'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.7/site-packages/jarabe/util/telepathy'
+ /bin/install -c -m 644 __init__.py connection_watcher.py '/usr/lib/python3.7/site-packages/jarabe/util/telepathy'
+Byte-compiling python modules...
+__init__.pyconnection_watcher.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pyconnection_watcher.py
+make[5]: Leaving directory '/usr/src/sugar/src/jarabe/util/telepathy'
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/util/telepathy'
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/util'
+make[5]: Entering directory '/usr/src/sugar/src/jarabe/util'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.7/site-packages/jarabe/util'
+ /bin/install -c -m 644 __init__.py downloader.py httprange.py normalize.py '/usr/lib/python3.7/site-packages/jarabe/util'
+Byte-compiling python modules...
+__init__.pydownloader.pyhttprange.pynormalize.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pydownloader.pyhttprange.pynormalize.py
+make[5]: Leaving directory '/usr/src/sugar/src/jarabe/util'
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/util'
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/util'
+Making install in webservice
+make[3]: Entering directory '/usr/src/sugar/src/jarabe/webservice'
+make[4]: Entering directory '/usr/src/sugar/src/jarabe/webservice'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.7/site-packages/jarabe/webservice'
+ /bin/install -c -m 644 __init__.py account.py accountsmanager.py '/usr/lib/python3.7/site-packages/jarabe/webservice'
+Byte-compiling python modules...
+__init__.pyaccount.pyaccountsmanager.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pyaccount.pyaccountsmanager.py
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe/webservice'
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe/webservice'
+make[3]: Entering directory '/usr/src/sugar/src/jarabe'
+make[4]: Entering directory '/usr/src/sugar/src/jarabe'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.7/site-packages/jarabe'
+ /bin/install -c -m 644 config.py '/usr/lib/python3.7/site-packages/jarabe'
+Byte-compiling python modules...
+config.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+config.py
+ /bin/mkdir -p '/usr/lib/python3.7/site-packages/jarabe'
+ /bin/install -c -m 644 __init__.py main.py apisocket.py testrunner.py '/usr/lib/python3.7/site-packages/jarabe'
+Byte-compiling python modules...
+__init__.pymain.pyapisocket.pytestrunner.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pymain.pyapisocket.pytestrunner.py
+make[4]: Leaving directory '/usr/src/sugar/src/jarabe'
+make[3]: Leaving directory '/usr/src/sugar/src/jarabe'
+make[2]: Leaving directory '/usr/src/sugar/src/jarabe'
+make[2]: Entering directory '/usr/src/sugar/src'
+make[3]: Entering directory '/usr/src/sugar/src'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/usr/src/sugar/src'
+make[2]: Leaving directory '/usr/src/sugar/src'
+make[1]: Leaving directory '/usr/src/sugar/src'
+Making install in extensions
+make[1]: Entering directory '/usr/src/sugar/extensions'
+Making install in cpsection
+make[2]: Entering directory '/usr/src/sugar/extensions/cpsection'
+Making install in aboutme
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/aboutme'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/aboutme'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/aboutme'
+ /bin/install -c -m 644 __init__.py model.py view.py '/usr/share/sugar/extensions/cpsection/aboutme'
+Byte-compiling python modules...
+__init__.pymodel.pyview.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pymodel.pyview.py
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/aboutme'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/aboutme'
+Making install in aboutcomputer
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/aboutcomputer'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/aboutcomputer'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/aboutcomputer'
+ /bin/install -c -m 644 __init__.py model.py view.py '/usr/share/sugar/extensions/cpsection/aboutcomputer'
+Byte-compiling python modules...
+__init__.pymodel.pyview.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pymodel.pyview.py
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/aboutcomputer'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/aboutcomputer'
+Making install in background
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/background'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/background'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/background'
+ /bin/install -c -m 644 __init__.py model.py view.py '/usr/share/sugar/extensions/cpsection/background'
+Byte-compiling python modules...
+__init__.pymodel.pyview.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pymodel.pyview.py
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/background'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/background'
+Making install in backup
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/backup'
+Making install in backends
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/backup/backends'
+make[5]: Entering directory '/usr/src/sugar/extensions/cpsection/backup/backends'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/backup/backends'
+ /bin/install -c -m 644 __init__.py volume.py backend_tools.py '/usr/share/sugar/extensions/cpsection/backup/backends'
+Byte-compiling python modules...
+__init__.pyvolume.pybackend_tools.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pyvolume.pybackend_tools.py
+make[5]: Leaving directory '/usr/src/sugar/extensions/cpsection/backup/backends'
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/backup/backends'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/backup'
+make[5]: Entering directory '/usr/src/sugar/extensions/cpsection/backup'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/backup'
+ /bin/install -c -m 644 __init__.py view.py model.py backupmanager.py '/usr/share/sugar/extensions/cpsection/backup'
+Byte-compiling python modules...
+__init__.pyview.pymodel.pybackupmanager.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pyview.pymodel.pybackupmanager.py
+make[5]: Leaving directory '/usr/src/sugar/extensions/cpsection/backup'
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/backup'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/backup'
+Making install in datetime
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/datetime'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/datetime'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/datetime'
+ /bin/install -c -m 644 __init__.py model.py view.py '/usr/share/sugar/extensions/cpsection/datetime'
+Byte-compiling python modules...
+__init__.pymodel.pyview.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pymodel.pyview.py
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/datetime'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/datetime'
+Making install in frame
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/frame'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/frame'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/frame'
+ /bin/install -c -m 644 __init__.py model.py view.py '/usr/share/sugar/extensions/cpsection/frame'
+Byte-compiling python modules...
+__init__.pymodel.pyview.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pymodel.pyview.py
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/frame'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/frame'
+Making install in keyboard
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/keyboard'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/keyboard'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/keyboard'
+ /bin/install -c -m 644 __init__.py model.py view.py '/usr/share/sugar/extensions/cpsection/keyboard'
+Byte-compiling python modules...
+__init__.pymodel.pyview.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pymodel.pyview.py
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/keyboard'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/keyboard'
+Making install in language
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/language'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/language'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/language'
+ /bin/install -c -m 644 __init__.py model.py view.py '/usr/share/sugar/extensions/cpsection/language'
+Byte-compiling python modules...
+__init__.pymodel.pyview.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pymodel.pyview.py
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/language'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/language'
+Making install in modemconfiguration
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/modemconfiguration'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/modemconfiguration'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/modemconfiguration'
+ /bin/install -c -m 644 __init__.py model.py view.py '/usr/share/sugar/extensions/cpsection/modemconfiguration'
+Byte-compiling python modules...
+__init__.pymodel.pyview.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pymodel.pyview.py
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/modemconfiguration'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/modemconfiguration'
+Making install in network
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/network'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/network'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/network'
+ /bin/install -c -m 644 __init__.py model.py view.py '/usr/share/sugar/extensions/cpsection/network'
+Byte-compiling python modules...
+__init__.pymodel.pyview.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pymodel.pyview.py
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/network'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/network'
+Making install in power
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/power'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/power'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/power'
+ /bin/install -c -m 644 __init__.py model.py view.py '/usr/share/sugar/extensions/cpsection/power'
+Byte-compiling python modules...
+__init__.pymodel.pyview.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pymodel.pyview.py
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/power'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/power'
+Making install in updater
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/updater'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/updater'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/updater'
+ /bin/install -c -m 644 __init__.py model.py view.py '/usr/share/sugar/extensions/cpsection/updater'
+Byte-compiling python modules...
+__init__.pymodel.pyview.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pymodel.pyview.py
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/updater'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/updater'
+Making install in webaccount
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection/webaccount'
+Making install in services
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/webaccount/services'
+make[5]: Entering directory '/usr/src/sugar/extensions/cpsection/webaccount/services'
+make[6]: Entering directory '/usr/src/sugar/extensions/cpsection/webaccount/services'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/webaccount/services'
+ /bin/install -c -m 644 __init__.py '/usr/share/sugar/extensions/cpsection/webaccount/services'
+Byte-compiling python modules...
+__init__.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.py
+make[6]: Leaving directory '/usr/src/sugar/extensions/cpsection/webaccount/services'
+make[5]: Leaving directory '/usr/src/sugar/extensions/cpsection/webaccount/services'
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/webaccount/services'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection/webaccount'
+make[5]: Entering directory '/usr/src/sugar/extensions/cpsection/webaccount'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection/webaccount'
+ /bin/install -c -m 644 __init__.py model.py view.py web_service.py '/usr/share/sugar/extensions/cpsection/webaccount'
+Byte-compiling python modules...
+__init__.pymodel.pyview.pyweb_service.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pymodel.pyview.pyweb_service.py
+make[5]: Leaving directory '/usr/src/sugar/extensions/cpsection/webaccount'
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection/webaccount'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection/webaccount'
+make[3]: Entering directory '/usr/src/sugar/extensions/cpsection'
+make[4]: Entering directory '/usr/src/sugar/extensions/cpsection'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/cpsection'
+ /bin/install -c -m 644 __init__.py '/usr/share/sugar/extensions/cpsection'
+Byte-compiling python modules...
+__init__.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.py
+make[4]: Leaving directory '/usr/src/sugar/extensions/cpsection'
+make[3]: Leaving directory '/usr/src/sugar/extensions/cpsection'
+make[2]: Leaving directory '/usr/src/sugar/extensions/cpsection'
+Making install in deviceicon
+make[2]: Entering directory '/usr/src/sugar/extensions/deviceicon'
+make[3]: Entering directory '/usr/src/sugar/extensions/deviceicon'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/deviceicon'
+ /bin/install -c -m 644 __init__.py audio.py battery.py display.py frame.py network.py speech.py touchpad.py volume.py '/usr/share/sugar/extensions/deviceicon'
+Byte-compiling python modules...
+__init__.pyaudio.pybattery.pydisplay.pyframe.pynetwork.pyspeech.pytouchpad.pyvolume.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pyaudio.pybattery.pydisplay.pyframe.pynetwork.pyspeech.pytouchpad.pyvolume.py
+make[3]: Leaving directory '/usr/src/sugar/extensions/deviceicon'
+make[2]: Leaving directory '/usr/src/sugar/extensions/deviceicon'
+Making install in globalkey
+make[2]: Entering directory '/usr/src/sugar/extensions/globalkey'
+make[3]: Entering directory '/usr/src/sugar/extensions/globalkey'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/globalkey'
+ /bin/install -c -m 644 __init__.py brightness.py screenshot.py speech.py viewsource.py viewhelp.py '/usr/share/sugar/extensions/globalkey'
+Byte-compiling python modules...
+__init__.pybrightness.pyscreenshot.pyspeech.pyviewsource.pyviewhelp.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.pybrightness.pyscreenshot.pyspeech.pyviewsource.pyviewhelp.py
+make[3]: Leaving directory '/usr/src/sugar/extensions/globalkey'
+make[2]: Leaving directory '/usr/src/sugar/extensions/globalkey'
+Making install in webservice
+make[2]: Entering directory '/usr/src/sugar/extensions/webservice'
+make[3]: Entering directory '/usr/src/sugar/extensions/webservice'
+make[4]: Entering directory '/usr/src/sugar/extensions/webservice'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/sugar/extensions/webservice'
+ /bin/install -c -m 644 __init__.py '/usr/share/sugar/extensions/webservice'
+Byte-compiling python modules...
+__init__.py
+-c:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+Byte-compiling python modules (optimized versions) ...
+__init__.py
+make[4]: Leaving directory '/usr/src/sugar/extensions/webservice'
+make[3]: Leaving directory '/usr/src/sugar/extensions/webservice'
+make[2]: Leaving directory '/usr/src/sugar/extensions/webservice'
+make[2]: Entering directory '/usr/src/sugar/extensions'
+make[3]: Entering directory '/usr/src/sugar/extensions'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/usr/src/sugar/extensions'
+make[2]: Leaving directory '/usr/src/sugar/extensions'
+make[1]: Leaving directory '/usr/src/sugar/extensions'
+make[1]: Entering directory '/usr/src/sugar'
+make[2]: Entering directory '/usr/src/sugar'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/usr/src/sugar'
+make[1]: Leaving directory '/usr/src/sugar'
+ok
